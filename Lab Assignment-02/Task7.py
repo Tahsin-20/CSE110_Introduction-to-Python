@@ -1,0 +1,5 @@
+mins=int(input("Enter minutes: "))
+days=(mins)/((3600*24)/60)
+years=int(days//365)
+remain=int(days%365)
+print(mins,"minutes is apporximately", years,"years and", remain, "days")
